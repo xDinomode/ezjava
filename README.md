@@ -1,10 +1,11 @@
-These are simple java projects
+# EZJAVA
+ez java projects to play around with
 
-## How to use
 
-All .java files have to be compiled into .class
+### How to use
+Simply compile any **.java** files
 
-make sure you have **javac** to compile them
+But make sure you have **javac** to compile them
 
 >javac fileName.java
 
@@ -13,6 +14,22 @@ once this compiles into .class simply run:
 >java fileName
 
 ## folders
+> /getRequest
+- GetRequest.java makes a get request and posts the body into the terminal. Note: NOT WORKING kinda. > java GetRequest www.example.com
+
+-----
+
+> /grabHTML
+- GrabHTML.java prints a websites html into the terminal. > java GrabHTML http://example.com
+
+-----
+
+
+> /grabWebsitesIP
+- GrabIP.java grabs a websites ip obviously. Simply compile it and run > java GrabIP www.example.com
+
+-----
+
 > /readinput
 - Password.java reads in a username and password but hides the password from the command line
 
